@@ -88,3 +88,9 @@ const generateToken = async () => {
 
   return token;
 }
+
+export const config = {
+  api: {
+    responseLimit: false,
+  },
+}
